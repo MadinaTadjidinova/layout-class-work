@@ -35,4 +35,14 @@ h2{
 .card-2{
     display: flex;
     flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.group-input{
+    display: flex;
+
+}
+.span{
+    border: 1px solid gray;
+    padding: 0px;
 }
