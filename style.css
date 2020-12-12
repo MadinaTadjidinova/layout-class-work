@@ -61,6 +61,7 @@ img{
     border-bottom-left-radius: 4px;
     padding: 13px;
     line-height: 10px;
+
 }
 
 .sp-2{
@@ -77,8 +78,13 @@ img{
 }
 
 .form-control.width-2-input{
-    width: 402px;
+    width: 410px;
 }
 .e-a-a2{
     padding: 7px;
 }
+
+.select-form{
+        padding: 10px;
+        margin: 10px;
+    }
