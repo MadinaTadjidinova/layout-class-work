@@ -18,31 +18,68 @@ body{
     padding-right: 12px;
 }
 img{
-    width: 72px;
-    height: 57px;
- 
+    width: 83px;
+    height: 70px;
+    margin: 10px;
 }
-h2{
+.h2-1{
     margin-bottom: 8px;
     font-weight: 500;
+    padding: -30px;
 }
 .p-1{
     display: block;
     font-size: 20px;
     font-weight: 300px;
+    margin: 20px;
 }
 
 .card-2{
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 500px;
+    
 }
 
 .group-input{
+    padding-left:15px ;
     display: flex;
+}
 
+.form-control{
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 .span{
-    border: 1px solid gray;
-    padding: 0px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 13px;
+    line-height: 10px;
+}
+
+.sp-2{
+    color: #0000006c;
+}
+.f-n{
+    padding-left: 8px;
+}
+.l-n{
+    padding-left: 16px;
+}
+.form-control.width-input{
+    width: 357px;
+}
+
+.form-control.width-2-input{
+    width: 402px;
+}
+.email{
+    padding: 7px;
+    width: 470px;
 }
