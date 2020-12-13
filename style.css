@@ -212,11 +212,11 @@ hr {
     margin-left: -1.5em;
 }
 .form-control.n-o-c{
-    width: 298px;
+    width: 305px;
 }
 
 .form-control.cc{
-    width: 298px;
+    width: 305px;
 }
 .nameoncard{
         margin-right:15px;
@@ -227,4 +227,13 @@ hr {
 .cvv{
     padding-left: 20px;
     width: 165px;
+}
+.button{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
 }
