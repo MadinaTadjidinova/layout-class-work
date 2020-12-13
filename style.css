@@ -5,41 +5,64 @@
 }
 body{
     background-color: #f8f9fa;
-    line-height: 35px;
+    margin: 0;
+    line-height: 50px;
     color: black;
     font-size: 16px;
+    font-weight: 400;    
 }
 .conteiner{
     max-width: 960px;
-    margin: 0 auto;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 16px;
+}
+.header{
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
     text-align: center;
-    padding-left: 12px;
-    padding-right: 12px;
 }
 img{
     width: 83px;
     height: 70px;
-    margin: 10px;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 .h2-1{
-    margin-bottom: 8px;
-    font-weight: 500;
-    padding: -30px;
+
+    margin-top: 0;
+    margin-bottom: .5rem;
+    
+    line-height: 1.2;
 }
 .p-1{
-    display: block;
-    font-size: 20px;
-    font-weight: 300px;
-    margin: 20px;
+
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
+.form{
+    max-width: 830px;       
+}
 .card-2{
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
-    
+    max-width: 1000px;
 }
+.second{
+    max-width: 67.5%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 16px;
+}
+    
 
 .group-input{
     padding-left:15px ;
@@ -47,12 +70,20 @@ img{
 }
 
 .form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
     border: 1px solid #ced4da;
-    padding: 10px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: .25rem;
+   
 }
 .span{
     background-color: #e9ecef;
@@ -67,24 +98,84 @@ img{
 .sp-2{
     color: #0000006c;
 }
-.f-n{
-    padding-left: 8px;
+
+.form-control.fn{
+    width: 298px;
 }
-.l-n{
-    padding-left: 16px;
+
+.form-control.ln{
+    width: 298px;
 }
+
 .form-control.width-input{
-    width: 357px;
+    width: 585px;
+    padding-right: 80px;
 }
 
 .form-control.width-2-input{
-    width: 410px;
-}
-.e-a-a2{
-    padding: 7px;
+    width: 630px;
 }
 
+
 .select-form{
-        padding: 10px;
-        margin: 10px;
+        padding: 8px;
+        margin-left: 50px;
     }
+.zip-width{
+    width: 95px;
+  
+}
+.select-width-1{
+    width: 155px;
+  
+}
+.select-width-2{
+    width: 128px;
+    
+}
+
+.form-control.zip-width{
+    padding-right: 80px;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+.hr{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .25em;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    
+}
