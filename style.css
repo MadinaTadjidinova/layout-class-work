@@ -62,10 +62,11 @@ img{
     padding-left: 8px;
     margin-top: 16px;
 }
-    
+.f-n{
+    margin-right:15px;
+    }
 
 .group-input{
-    padding-left:15px ;
     display: flex;
 }
 
@@ -142,8 +143,8 @@ hr:not([size]) {
     height: 1px;
 }
 .hr{
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 hr {
     margin: 1rem 0;
@@ -151,31 +152,26 @@ hr {
     background-color: currentColor;
     border: 0;
     opacity: .25;
-}
-
+} 
 .form-check {
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5em;
     margin-bottom: .125rem;
+    border-radius: 4px;
 }
 
-.form-check-input[type=checkbox] {
-    border-radius: .25em;
+.form-check-input {
+    border-radius: 4px;
 }
-.form-check .form-check-input {
-    float: left;
-    margin-left: -1.5em;
+.form-check {
+   padding: 0;
 }
 .form-check-input {
     width: 1em;
     height: 1em;
     margin-top: .25em;
-    vertical-align: top;
     background-color: #fff;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     border: 1px solid rgba(0,0,0,.25);
     
 }
