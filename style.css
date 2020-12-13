@@ -237,3 +237,49 @@ hr {
     font-size: 1.25rem;
     border-radius: .3rem;
 }
+.footer{
+    color: #6c757d;
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.footer-p{
+    margin-bottom: .25rem;
+    margin-top: 0;
+}
+.list-inline{
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.list-inline-item{
+    display: inline-block;
+    margin-right: .5rem;
+}
+.hr.hr-2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.h2-1{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between
+}
+
+.with-bg-3{
+    border-radius: 800px;
+    background-color: #6c757d;
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
